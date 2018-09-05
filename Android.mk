@@ -1,4 +1,4 @@
-ifeq ($(TARGET_QCOM_AUDIO_VARIANT),caf-msm8937)
+#ifeq ($(TARGET_QCOM_AUDIO_VARIANT),caf-msm8937)
 
 MY_LOCAL_PATH := $(call my-dir)
 
@@ -22,5 +22,5 @@ ifeq ($(USE_LEGACY_AUDIO_DAEMON), true)
 include $(MY_LOCAL_PATH)/audiod/Android.mk
 endif
 
-endif
+#endif
 

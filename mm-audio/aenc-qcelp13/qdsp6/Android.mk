@@ -20,7 +20,7 @@ libOmxQcelp13Enc-def += -Wno-sign-conversion -Wno-self-assign -Wno-format -Wno-m
 # ---------------------------------------------------------------------------------
 #             Make the Shared library (libOmxQcelp13Enc)
 # ---------------------------------------------------------------------------------
-
+TARGET_SPECIFIC_HEADER_PATH := hardware/qcom/media-caf-msm8937/mm-core/inc
 include $(CLEAR_VARS)
 
 libOmxQcelp13Enc-inc       := $(LOCAL_PATH)/inc

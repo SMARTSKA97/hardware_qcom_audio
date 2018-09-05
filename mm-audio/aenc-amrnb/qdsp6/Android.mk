@@ -20,7 +20,7 @@ libOmxAmrEnc-def += -Wno-sign-conversion -Wno-self-assign -Wno-format -Wno-macro
 # ---------------------------------------------------------------------------------
 #             Make the Shared library (libOmxAmrEnc)
 # ---------------------------------------------------------------------------------
-
+TARGET_SPECIFIC_HEADER_PATH := hardware/qcom/media-caf-msm8937/mm-core/inc
 include $(CLEAR_VARS)
 
 libOmxAmrEnc-inc       := $(LOCAL_PATH)/inc

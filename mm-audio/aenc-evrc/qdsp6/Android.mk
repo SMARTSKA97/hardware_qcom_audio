@@ -20,7 +20,7 @@ libOmxEvrcEnc-def += -Wno-sign-conversion -Wno-self-assign -Wno-format -Wno-macr
 # ---------------------------------------------------------------------------------
 #             Make the Shared library (libOmxEvrcEnc)
 # ---------------------------------------------------------------------------------
-
+TARGET_SPECIFIC_HEADER_PATH := hardware/qcom/media-caf-msm8937/mm-core/inc
 include $(CLEAR_VARS)
 
 libOmxEvrcEnc-inc       := $(LOCAL_PATH)/inc
